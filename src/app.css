@@ -1,0 +1,39 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	color: #333;
+	scroll-behavior: smooth;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px 8px;
+	border: 1px solid dimgray;
+	border-radius: 4px;
+	font-size: 1rem;
+	transition: 0.15s;
+}
+.btn:hover {
+	color: white !important;
+	background-color: #333;
+}
+
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Nunito/NunitoSans-Regular.woff2') format('woff2'),
+		url('/fonts/Nunito/NunitoSans-Regular.woff') format('woff');
+	font-display: fallback;
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/Nunito/NunitoSans-Bold.woff2') format('woff2'),
+		url('/fonts/Nunito/NunitoSans-Bold.woff') format('woff');
+	font-display: fallback;
+}
