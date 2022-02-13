@@ -6,9 +6,9 @@
 
 <section class="intro">
 	<div class="w-full">
-		<div class="intro__title">
+		<h1 class="intro__title">
 			Ahoj jsem Lukáš 👋
-			<h1>Front-end developer 👨🏻‍💻.</h1>
+			<span class="block">Front-end developer 👨🏻‍💻.</span>
 			Zakladatel
 			<a href="https://evide.cz/" class="evide" target="_blank">
 				<EvideLogo size="35" />
@@ -22,7 +22,7 @@
 					<span class="underline"> Diky2020 </span>
 				</a>
 			</span>
-		</div>
+		</h1>
 		<span>
 			Nakoukni do mého
 			<a
