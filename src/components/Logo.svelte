@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let watermark: boolean
+	export let watermark = false
 	export let size = 45
-	export let hover: boolean
+	export let hover = false
 </script>
 
 <svg
