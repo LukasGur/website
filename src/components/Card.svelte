@@ -18,7 +18,7 @@
 		</div>
 	</div>
 	{#if imagePath && imageAlt}
-		<img class="card__image" src={imagePath} alt={imageAlt} />
+		<img class="card__image" src={imagePath} alt={imageAlt} loading="lazy" />
 	{/if}
 </div>
 

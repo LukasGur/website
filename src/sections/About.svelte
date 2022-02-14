@@ -45,6 +45,7 @@
 			height="216"
 			alt="Lukáš Gurecký"
 			class="rounded"
+			loading="lazy"
 		/>
 	</div>
 </section>
