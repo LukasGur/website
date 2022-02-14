@@ -1,5 +1,5 @@
 // number of years of experience
-const diff = new Date().getTime() - new Date('2019.01.15').getTime()
+const diff = new Date().getTime() - new Date('Jan 15 2019').getTime()
 
 function getYears(diff: number) {
 	const seconds = Math.floor(diff / 1000),
