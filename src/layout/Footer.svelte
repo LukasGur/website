@@ -6,6 +6,7 @@
 <footer id="footer" class="container">
 	<a
 		href="/"
+		aria-label="homepage"
 		on:mouseenter={() => (hover = true)}
 		on:mouseleave={() => (hover = false)}
 	>

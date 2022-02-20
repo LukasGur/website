@@ -8,6 +8,7 @@
 		<a
 			href="/"
 			class="logo"
+			aria-label="homepage"
 			on:mouseenter={() => (hover = true)}
 			on:mouseleave={() => (hover = false)}
 		>
