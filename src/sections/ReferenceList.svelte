@@ -29,7 +29,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="title">{item.title}</svelte:fragment>
 			<svelte:fragment slot="text">
-				{item.text}
+				{@html item.text}
 			</svelte:fragment>
 			<svelte:fragment slot="buttons">
 				{@const slug = item.slug}

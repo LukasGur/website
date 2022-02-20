@@ -33,7 +33,7 @@
 		margin-bottom: 2rem;
 	}
 	.card__content {
-		max-width: 60%;
+		max-width: 61%;
 	}
 	@media (max-width: theme('screens.sm')) {
 		.card__content {

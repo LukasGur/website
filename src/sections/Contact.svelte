@@ -10,7 +10,7 @@
 		<p class="contact__text">
 			Rád poslouchám názory ostatních tvůrců v&nbsp;komunitě.&nbsp;👂 Pracuješ
 			na nějakém božím projektu, 💥 kam sháníš frontendistu?&nbsp;👨🏻‍💻 Chceš
-			probrat tvůj nový projekt?&nbsp;🦾 Nebo&nbsp;si chceš zajít jen na
+			probrat tvůj nový projekt?&nbsp;✨ Nebo&nbsp;si chceš zajít jen na
 			Kofolu?&nbsp;🍺
 		</p>
 		<ul class="contact__list">
