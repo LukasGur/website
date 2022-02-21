@@ -1,10 +1,9 @@
 [build]
   command = "npm run build"
   publish = "build/"
-  functions = "functions/"
 
 [[headers]]
-  for = "/*"
+  for = "*"
   [headers.values]
     Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self'"
     Cache-Control = "public, max-age=3000000"
