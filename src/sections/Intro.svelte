@@ -45,6 +45,7 @@
 		justify-content: center;
 		align-items: center;
 		height: 58vh;
+		min-height: 400px;
 		position: relative;
 		top: -65px;
 	}
