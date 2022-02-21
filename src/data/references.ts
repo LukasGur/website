@@ -3,7 +3,7 @@ export default [
 		slug: 'evide',
 		title: 'Evide',
 		link: 'https://evide.cz/',
-		text: 'Webová aplikace pro vedení daňové evidence a&nbsp;vystavování faktur&nbsp;💰. Sami dobře víme, jak je těžké začít s&nbsp;podnikáním a&nbsp;proto tuto aplikaci nabízíme plně zdarma.',
+		text: 'Webová aplikace pro vedení daňové evidence a&nbsp;vystavování faktur.&nbsp;💰 Sami dobře víme, jak je těžké začít s&nbsp;podnikáním a&nbsp;proto tuto aplikaci nabízíme plně zdarma.',
 		imageName: 'evide-dashboard',
 		imageAlt: 'Náhled Evide dashboardu'
 	},
@@ -12,7 +12,7 @@ export default [
 		title: 'Diky2020',
 		link: 'https://diky2020.cz/',
 		git: 'https://github.com/LukasGur/Diky2020',
-		text: 'Během pár dnů, jsme ve spolupráci s&nbsp;<a href="https://www.donio.cz/" class="underline text-diky" rel="nofollow">Donio.cz</a>, vytvořili dobročinný projekt pro seniory a&nbsp;samoživitelky.&nbsp;👩‍🍼',
+		text: 'Během pár dnů, jsme ve spolupráci s&nbsp;<a href="https://www.donio.cz/" class="underline text-diky" rel="nofollow" target="_blank">Donio.cz</a>, vytvořili dobročinný projekt pro seniory a&nbsp;samoživitelky.&nbsp;👩‍🍼',
 		imageName: 'diky2020-page',
 		imageAlt: 'Náhled webové stránky Díky 2020'
 	},
