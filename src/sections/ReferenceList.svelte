@@ -8,7 +8,6 @@
 		title: string
 		text: string
 		link?: string
-		git?: string
 		imageName?: string
 		imageAlt?: string
 	}
@@ -41,16 +40,6 @@
 						class="btn border-{slug} text-{slug} hover:bg-{slug}"
 					>
 						navštívit produkt
-					</a>
-				{/if}
-				{#if item.git}
-					<a
-						href={item.git}
-						target="_blank"
-						rel="nofollow"
-						class="btn border-{slug} text-{slug} hover:bg-{slug}"
-					>
-						git repo
 					</a>
 				{/if}
 			</svelte:fragment>

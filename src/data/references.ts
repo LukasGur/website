@@ -11,7 +11,6 @@ export default [
 		slug: 'diky',
 		title: 'Diky2020',
 		link: 'https://diky2020.cz/',
-		git: 'https://github.com/LukasGur/Diky2020',
 		text: 'Během pár dnů, jsme ve spolupráci s&nbsp;<a href="https://www.donio.cz/" class="underline text-diky" rel="nofollow" target="_blank">Donio.cz</a>, vytvořili dobročinný projekt pro seniory a&nbsp;samoživitelky.&nbsp;👩‍🍼',
 		imageName: 'diky2020-page',
 		imageAlt: 'Náhled webové stránky Díky 2020'
@@ -46,7 +45,6 @@ export default [
 	// 	slug: 'rostislav',
 	// 	title: 'Rostislav Gurecký',
 	// 	link: 'https://rostislavgurecky.netlify.app/',
-	// 	git: 'https://github.com/LukasGur/RostislavGurecky',
 	// 	text: 'Vytvořil jsem web pro ',
 	// 	imageName: 'rostislav-web',
 	// 	imageAlt: 'Náhled webové stránky Rostislava Gureckého'
@@ -56,7 +54,6 @@ export default [
 	// 	title: 'Lukáš Gurecký',
 	// 	text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde cupiditate asperiores fuga enim velit minima earum laudantium, ipsam.',
 	// 	link: '/',
-	// 	git: 'https://github.com/LukasGur/website',
 	// 	imageName: 'webpage',
 	// 	imageAlt: 'Náhled stránky Lukáš Gurecký'
 	// },
