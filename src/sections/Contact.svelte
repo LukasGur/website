@@ -9,9 +9,8 @@
 	<div class="contact__content">
 		<p class="contact__text">
 			Rád poslouchám názory ostatních tvůrců v&nbsp;komunitě.&nbsp;👂 Pracuješ
-			na nějakém božím projektu, 💥 kam sháníš frontendistu?&nbsp;👨🏻‍💻 Chceš
-			probrat tvůj nový projekt?&nbsp;✨ Nebo&nbsp;si chceš zajít jen na
-			Kofolu?&nbsp;🍺
+			na nějakém božím projektu 💥 o kterém bych měl vědět? 👀 Sháníš někam
+			frontendistu?&nbsp;👨🏻‍💻 Nebo&nbsp;si chceš zajít jen na Kofolu?&nbsp;🍺
 		</p>
 		<ul class="contact__list">
 			<li>
