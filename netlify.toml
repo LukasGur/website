@@ -2,11 +2,13 @@
   command = "npx pnpm build"
   publish = "build/"
 
+[functions]
+  node_bundler = "esbuild" # temporary workaround for https://github.com/sveltejs/kit/issues/6462
+
 [[headers]]
   for = "*"
   [headers.values]
     Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; img-src 'self'; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self'"
-    Cache-Control = "public, max-age=3000000"
     X-Frame-Options = "deny"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
