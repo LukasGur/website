@@ -1,8 +1,6 @@
 <script lang="ts">
 	import SvelteIcon from '$/components/icons/tools/SvelteIcon.svelte'
 	import TypeScriptIcon from '$/components/icons/tools/TypeScriptIcon.svelte'
-	import NuxtIcon from '$/components/icons/tools/NuxtIcon.svelte'
-	import VueIcon from '$/components/icons/tools/VueIcon.svelte'
 	import TailwindIcon from '$/components/icons/tools/TailwindIcon.svelte'
 	import CypressIcon from '$/components/icons/tools/CypressIcon.svelte'
 	import GraphQLIcon from '$/components/icons/tools/GraphQLIcon.svelte'
@@ -12,7 +10,7 @@
 <section id="about" class="about mb-20">
 	<h2 class="about__title">🙋‍♂️&nbsp;O&nbsp;mně</h2>
 	<p class="about__text">
-		Jmenuji se Lukáš Gurecký&nbsp;✌️ a&nbsp;mám přes
+		Jmenuji se Lukáš Gurecký&nbsp;👈 a&nbsp;mám přes
 		{experienceYears}&nbsp;{experienceYears > 4 ? 'let' : 'roky'}
 		zkušeností s&nbsp;front-endem, tvorbou webových aplikací a&nbsp;SEO.
 	</p>
@@ -30,8 +28,6 @@
 				<SvelteIcon />
 				Svelte<span class="text-gray-lighter">Kit</span>
 			</span>
-			<span class="text-vue"> <VueIcon /> Vue.js</span>
-			<span class="text-nuxt"> <NuxtIcon /> Nuxt.js</span>
 			<span class="text-typescript"> <TypeScriptIcon /> TypeScript</span>
 			<span class="text-tailwind"><TailwindIcon /> Tailwind CSS</span>
 			<span><CypressIcon /> Cypress</span>

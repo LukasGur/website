@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Card from '$/components/Card.svelte'
-	import ProjcetIcon from '$/components/ProjectIcon.svelte'
-	import redefences from '../data/references'
+	import ProjectIcon from '$/components/ProjectIcon.svelte'
+	import references from '../data/references'
 
 	interface referenceItem {
 		slug: string
@@ -12,7 +12,7 @@
 		imageAlt?: string
 	}
 
-	const data: referenceItem[] = redefences
+	const data: referenceItem[] = references
 </script>
 
 <section id="references" class="mb-20">
@@ -24,7 +24,7 @@
 			imageAlt={item.imageAlt}
 		>
 			<svelte:fragment slot="logo">
-				<ProjcetIcon project={item.slug} />
+				<ProjectIcon project={item.slug} />
 			</svelte:fragment>
 			<svelte:fragment slot="title">{item.title}</svelte:fragment>
 			<svelte:fragment slot="text">
@@ -45,10 +45,4 @@
 			</svelte:fragment>
 		</Card>
 	{/each}
-	<!-- <button
-		class="btn border-primary text-primary hover:bg-primary block mx-auto"
-		on:click|preventDefault={() => (showMore = !showMore)}
-	>
-		{showMore ? 'skrýt' : 'zobrazit více'}
-	</button> -->
 </section>

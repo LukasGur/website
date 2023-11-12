@@ -9,6 +9,9 @@
 	import RamonegeLogo from '$/components/icons/references/RamonegeLogo.svelte'
 	import VikendoLogo from '$/components/icons/references/VikendoLogo.svelte'
 	import Logo from '$/components/Logo.svelte'
+	import MojeMakroLogo from './icons/references/MojeMakroLogo.svelte'
+	import SalesCockpitLogo from './icons/references/SalesCockpitLogo.svelte'
+	import EdustoriesLogo from './icons/references/EdustoriesLogo.svelte'
 
 	export let project: string
 </script>
@@ -31,6 +34,12 @@
 	<RamonegeLogo />
 {:else if project === 'vikendo'}
 	<VikendoLogo />
+{:else if project === 'mojemakro'}
+	<MojeMakroLogo />
+{:else if project === 'salescockpit'}
+	<SalesCockpitLogo />
+{:else if project === 'edustories'}
+	<EdustoriesLogo />
 {:else if project === 'primary'}
 	<Logo />
 {/if}

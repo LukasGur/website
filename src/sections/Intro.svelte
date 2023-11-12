@@ -7,18 +7,18 @@
 <section class="intro">
 	<div class="w-full">
 		<h1 class="intro__title">
-			Ahoj jsem Lukáš 👋
+			Ahoj jsem Lukáš 🤟
 			<span class="block">Front-end developer 👨🏻‍💻</span>
 			Zakladatel
 			<a href="https://evide.cz/" class="evide" target="_blank">
-				<EvideLogo size="35" />
+				<EvideLogo size={35} />
 				<span class="underline"> Evide </span>
 			</a>
 			&&nbsp;nadšenec&nbsp;do solidárních
 			<span class="inline-block">
 				projektů
 				<a href="https://diky2020.cz/" class="diky" target="_blank">
-					<Diky2020Logo size="35" />
+					<Diky2020Logo size={35} />
 					<span class="underline"> Diky2020 </span>
 				</a>
 			</span>

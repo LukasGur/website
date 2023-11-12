@@ -16,6 +16,21 @@ export default [
 		imageAlt: 'Náhled webové stránky Díky 2020'
 	},
 	{
+		slug: 'edustories',
+		title: 'Edustories',
+		text: 'Edustories je projekt Masarykovy univerzity&nbsp;🎓 zaměřený na řešení kázeňských problémů ve třídě pomocí úspěšných případových studií a&nbsp;algoritmů umělé inteligence.&nbsp;🧠 Aplikace pomáhá nejen studentům učitelství, ale i&nbsp;zkušeným učitelům nebo rodičům.&nbsp;👨‍👩‍👧',
+	},
+	{
+		slug: 'mojemakro',
+		title: 'Moje Makro admin',
+		text: 'Samostatný administrační modul pro mobilní aplikaci Moje Makro, který usnadňuje správu produktů, bannerů, notifikací, poboček a&nbsp;zajišťuje řízení práv uživatelů.&nbsp;📱',
+	},
+	{
+		slug: 'salescockpit',
+		title: 'SalesCockpit',
+		text: 'Systém pro plánování a&nbsp;evidenci schůzek obchodních zástupců společnosti Makro. 📆 S&nbsp;touto aplikací mohou uživatelé snadno plánovat schůzky, zaznamenávat průběh jednání a&nbsp;ukládat cenové nabídky pro jednotlivé zákazníky.&nbsp;📈',
+	},
+	{
 		slug: 'typo',
 		title: 'Správce domén',
 		text: 'Vyvinul jsem komplexní systém pro správu domén.&nbsp;🌐 Stará se o&nbsp;zjištění dostupnosti, registrace, analýzy přístupů a&nbsp;obsah na stránkách.'
@@ -26,21 +41,26 @@ export default [
 		text: 'Systém pro sledování kryptoměn a&nbsp;upozornění na důležité události.&nbsp;🔔 Pro sledování jsme využívali Twitter, Google News, Google Trends a&nbsp;data z&nbsp;burzy.'
 	},
 	{
-		slug: 'vikendo',
-		title: 'Vikendo',
-		link: 'https://vikendo.cz/',
-		text: 'Myšlenka projektu Vikendo je navrhnout si výlet během pár kliků.&nbsp;🧗 Můžete zde vyhledávat a&nbsp;plánovat aktivity, které byste chtěli během výletu zažít.',
-		imageName: 'vikendo-page',
-		imageAlt: 'Náhled webové stránky Vikendo'
-	},
-	{
 		slug: 'ramonedge',
 		title: 'Ramonedge',
 		link: 'https://ramonedge.cz/',
-		text: 'Hlavní český a&nbsp;slovenský distributor nožů Ramonedge ⛸ chtěl zefektivnit proces objednávek, který tehdy probíhal přes e-mail a&nbsp;excelovou tabulku. Nyní může sám editovat nabídku nožů i&nbsp;obsah na stránkách.&nbsp;🔥',
+		text: 'Hlavní český a&nbsp;slovenský distributor nožů Ramonedge&nbsp;⛸ chtěl zefektivnit proces objednávek, který tehdy probíhal přes e-mail a&nbsp;excelovou tabulku. Nyní může sám editovat nabídku nožů i&nbsp;obsah na stránkách.&nbsp;🔥',
 		imageName: 'ramonedge-web',
 		imageAlt: 'Náhled webové stránky Ramonedge'
 	},
+	{
+		slug: 'mycronic',
+		title: 'Line Programming',
+		text: 'Vyvíjel jsem frontendové prostředí pro nastavení robotických ramen,&nbsp;🦾 která mají za úkol automatizaci výroby desek s&nbsp;plošnými spoji.'
+	}
+		// {
+	// 	slug: 'vikendo',
+	// 	title: 'Vikendo',
+	// 	link: 'https://vikendo.cz/',
+	// 	text: 'Myšlenka projektu Vikendo je navrhnout si výlet během pár kliků.&nbsp;🧗 Můžete zde vyhledávat a&nbsp;plánovat aktivity, které byste chtěli během výletu zažít.',
+	// 	imageName: 'vikendo-page',
+	// 	imageAlt: 'Náhled webové stránky Vikendo'
+	// },
 	// {
 	// 	slug: 'rostislav',
 	// 	title: 'Rostislav Gurecký',
@@ -65,11 +85,6 @@ export default [
 	// 	imageName: 'zsskalova-page',
 	// 	imageAlt: 'Náhled webové stránky Základní školy Skálova'
 	// },
-	{
-		slug: 'mycronic',
-		title: 'Line Programming',
-		text: 'Vyvíjel jsem frontendové prostředí pro nastavení robotických ramen, 🦾 která mají za úkol automatizaci výroby desek s&nbsp;plošnými spoji.'
-	}
 	// {
 	// 	slug: 'bot',
 	// 	title: 'Bot Calculator',

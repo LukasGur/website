@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Vue.js a Svelte front-end developer Brno - Lukáš Gurecký 👀</title>
+	<title>Vue.js a Svelte front-end developer Brno - Lukáš Gurecký 🌟</title>
 	<meta
 		name="description"
 		content="Jsem Vue.js a Svelte front-end devloper z Brna. Mám více než {experienceYears} {experienceYears >
