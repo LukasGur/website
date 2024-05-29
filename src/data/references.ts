@@ -18,17 +18,20 @@ export default [
 	{
 		slug: 'edustories',
 		title: 'Edustories',
+		link: 'https://edustories.cz/',
 		text: 'Edustories je projekt Masarykovy univerzity&nbsp;🎓 zaměřený na řešení kázeňských problémů ve třídě pomocí úspěšných případových studií a&nbsp;algoritmů umělé inteligence.&nbsp;🧠 Aplikace pomáhá nejen studentům učitelství, ale i&nbsp;zkušeným učitelům nebo rodičům.&nbsp;👨‍👩‍👧',
-	},
-	{
-		slug: 'mojemakro',
-		title: 'Moje Makro admin',
-		text: 'Samostatný administrační modul pro mobilní aplikaci Moje Makro, který usnadňuje správu produktů, bannerů, notifikací, poboček a&nbsp;zajišťuje řízení práv uživatelů.&nbsp;📱',
+		imageName: 'edustories',
+		imageAlt: 'Náhled webové stránky Edustories'
 	},
 	{
 		slug: 'salescockpit',
 		title: 'SalesCockpit',
-		text: 'Systém pro plánování a&nbsp;evidenci schůzek obchodních zástupců společnosti Makro. 📆 S&nbsp;touto aplikací mohou uživatelé snadno plánovat schůzky, zaznamenávat průběh jednání a&nbsp;ukládat cenové nabídky pro jednotlivé zákazníky.&nbsp;📈',
+		text: 'Systém pro plánování a&nbsp;evidenci schůzek obchodních zástupců společnosti Makro. 📆 S&nbsp;touto aplikací mohou uživatelé snadno plánovat schůzky, zaznamenávat průběh jednání a&nbsp;ukládat cenové nabídky pro jednotlivé zákazníky.&nbsp;📈'
+	},
+	{
+		slug: 'mojemakro',
+		title: 'Moje Makro admin',
+		text: 'Samostatný administrační modul pro mobilní aplikaci Moje Makro, který usnadňuje správu produktů, bannerů, notifikací, poboček a&nbsp;zajišťuje řízení práv uživatelů.&nbsp;📱'
 	},
 	{
 		slug: 'typo',
@@ -53,7 +56,7 @@ export default [
 		title: 'Line Programming',
 		text: 'Vyvíjel jsem frontendové prostředí pro nastavení robotických ramen,&nbsp;🦾 která mají za úkol automatizaci výroby desek s&nbsp;plošnými spoji.'
 	}
-		// {
+	// {
 	// 	slug: 'vikendo',
 	// 	title: 'Vikendo',
 	// 	link: 'https://vikendo.cz/',

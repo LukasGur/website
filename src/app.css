@@ -25,7 +25,8 @@ html {
 	font-family: 'Nunito Sans';
 	font-style: normal;
 	font-weight: 400;
-	src: url('/fonts/Nunito/NunitoSans-Regular.woff2') format('woff2'),
+	src:
+		url('/fonts/Nunito/NunitoSans-Regular.woff2') format('woff2'),
 		url('/fonts/Nunito/NunitoSans-Regular.woff') format('woff');
 	font-display: fallback;
 }
@@ -33,7 +34,8 @@ html {
 	font-family: 'Nunito Sans';
 	font-style: normal;
 	font-weight: 700;
-	src: url('/fonts/Nunito/NunitoSans-Bold.woff2') format('woff2'),
+	src:
+		url('/fonts/Nunito/NunitoSans-Bold.woff2') format('woff2'),
 		url('/fonts/Nunito/NunitoSans-Bold.woff') format('woff');
 	font-display: fallback;
 }

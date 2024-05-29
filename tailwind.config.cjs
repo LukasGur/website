@@ -29,7 +29,7 @@ const appColors = {
 	'mojemakro-light': '#FFE61A10',
 	salescockpit: '#1B3B7B',
 	'salescockpit-lighter': '#1B3B7B20',
-	'salescockpit-light': "#1B3B7B10",
+	'salescockpit-light': '#1B3B7B10',
 	edustories: '#0D00DC',
 	'edustories-lighter': '#0D00DC20',
 	'edustories-light': '#0D00DC10',
