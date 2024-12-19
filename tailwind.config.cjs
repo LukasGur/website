@@ -75,14 +75,14 @@ const config = {
 			black: '#333',
 			'black-dark': 'black',
 			white: 'white',
-			facebook: '#4267B2',
 			linkedin: '#2867B2',
 			svelte: '#ff3e00',
 			vue: '#4dba87',
 			nuxt: '#00DC82',
 			typescript: '#007acc',
 			tailwind: '#06b6d4',
-			graphql: '#E535AB'
+			jira: '#0052CC',
+			figma: '#F24E1E'
 		}
 	},
 	plugins: []

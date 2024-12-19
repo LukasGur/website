@@ -2,8 +2,8 @@
 	import SvelteIcon from '$/components/icons/tools/SvelteIcon.svelte'
 	import TypeScriptIcon from '$/components/icons/tools/TypeScriptIcon.svelte'
 	import TailwindIcon from '$/components/icons/tools/TailwindIcon.svelte'
-	import CypressIcon from '$/components/icons/tools/CypressIcon.svelte'
-	import GraphQLIcon from '$/components/icons/tools/GraphQLIcon.svelte'
+	import JiraIcon from '$/components/icons/tools/JiraIcon.svelte'
+	import FigmaIcon from '$/components/icons/tools/FigmaIcon.svelte'
 	import experienceYears from '../data/yearsOfExperience'
 </script>
 
@@ -23,15 +23,15 @@
 	<span class="about__text">
 		Projekty momentálně vytvářím s&nbsp;těmito technologiemi:
 		<strong class="tools">
-			<span class="text-svelte"> <SvelteIcon /> Svelte</span>
 			<span class="text-svelte">
 				<SvelteIcon />
 				Svelte<span class="text-gray-lighter">Kit</span>
 			</span>
 			<span class="text-typescript"> <TypeScriptIcon /> TypeScript</span>
 			<span class="text-tailwind"><TailwindIcon /> Tailwind CSS</span>
-			<span><CypressIcon /> Cypress</span>
-			<span class="text-graphql"><GraphQLIcon /> GraphQL</span>
+			<span class="text-jira mr-0"><JiraIcon /> Jira</span>
+			na tasky a&nbsp;<span class="text-figma mr-0"><FigmaIcon /> Figma</span>
+			na obrázky
 		</strong>
 	</span>
 	<div class="about__image">

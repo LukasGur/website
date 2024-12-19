@@ -1,6 +1,5 @@
 <script lang="ts">
 	import EmailIcon from '$/components/icons/EmailIcon.svelte'
-	import FacebookLogo from '$/components/icons/FacebookLogo.svelte'
 	import LinkedinLogo from '$/components/icons/LinkedinLogo.svelte'
 </script>
 
@@ -20,17 +19,6 @@
 				>
 					<EmailIcon />
 					<span class="underline"> pošli mi mail </span>
-				</a>
-			</li>
-			<li>
-				<a
-					href="https://www.facebook.com/lukas.gurecky/"
-					target="_blank"
-					class="text-facebook hover:brightness-50 duration-150"
-					rel="nofollow"
-				>
-					<FacebookLogo />
-					<span class="underline"> facebook </span>
 				</a>
 			</li>
 			<li>
