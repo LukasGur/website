@@ -8,7 +8,7 @@
 	<div class="w-full">
 		<h1 class="intro__title">
 			Ahoj jsem Lukáš 🤟
-			<span class="block">Front-end developer 👨🏻‍💻</span>
+			<span class="block">Frontend developer 👨🏻‍💻</span>
 			Zakladatel
 			<a href="https://evide.cz/" class="evide" target="_blank">
 				<EvideLogo size={35} />

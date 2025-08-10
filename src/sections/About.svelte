@@ -5,6 +5,8 @@
 	import JiraIcon from '$/components/icons/tools/JiraIcon.svelte'
 	import FigmaIcon from '$/components/icons/tools/FigmaIcon.svelte'
 	import experienceYears from '../data/yearsOfExperience'
+	import VueIcon from '$/components/icons/tools/VueIcon.svelte'
+	import NuxtIcon from '$/components/icons/tools/NuxtIcon.svelte'
 </script>
 
 <section id="about" class="about mb-20">
@@ -12,7 +14,7 @@
 	<p class="about__text">
 		Jmenuji se Lukáš Gurecký&nbsp;👈 a&nbsp;mám přes
 		{experienceYears}&nbsp;{experienceYears > 4 ? 'let' : 'roky'}
-		zkušeností s&nbsp;front-endem, tvorbou webových aplikací a&nbsp;SEO.
+		zkušeností s&nbsp;frontendem, tvorbou webových aplikací a&nbsp;SEO.
 	</p>
 	<p class="about__text">
 		Nespím na vavřínech.&nbsp;🏖️ Stále se snažím nacházet nové technologie
@@ -27,6 +29,8 @@
 				<SvelteIcon />
 				Svelte<span class="text-gray-lighter">Kit</span>
 			</span>
+			<span class="text-vue"> <VueIcon /> Vue.js</span>
+			<span class="text-nuxt"> <NuxtIcon /> Nuxt.js</span>
 			<span class="text-typescript"> <TypeScriptIcon /> TypeScript</span>
 			<span class="text-tailwind"><TailwindIcon /> Tailwind CSS</span>
 			<span class="text-jira mr-0"><JiraIcon /> Jira</span>

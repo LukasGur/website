@@ -12,6 +12,7 @@
 	import MojeMakroLogo from './icons/references/MojeMakroLogo.svelte'
 	import SalesCockpitLogo from './icons/references/SalesCockpitLogo.svelte'
 	import EdustoriesLogo from './icons/references/EdustoriesLogo.svelte'
+	import OliveLogo from './icons/references/OliveLogo.svelte'
 
 	export let project: string
 </script>
@@ -40,6 +41,8 @@
 	<SalesCockpitLogo />
 {:else if project === 'edustories'}
 	<EdustoriesLogo />
+{:else if project === 'olive'}
+	<OliveLogo />
 {:else if project === 'primary'}
 	<Logo />
 {/if}

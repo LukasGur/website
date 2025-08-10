@@ -33,6 +33,9 @@ const appColors = {
 	edustories: '#0D00DC',
 	'edustories-lighter': '#0D00DC20',
 	'edustories-light': '#0D00DC10',
+	olive: '#65a30d',
+	'olive-lighter': '#65a30d30',
+	'olive-light': '#65a30d20',
 	typo: '#6f47d0',
 	'typo-lighter': '#6f47d020',
 	'typo-light': '#6f47d010'

@@ -24,14 +24,21 @@ export default [
 		imageAlt: 'Náhled webové stránky Edustories'
 	},
 	{
-		slug: 'salescockpit',
-		title: 'SalesCockpit',
-		text: 'Systém pro plánování a&nbsp;evidenci schůzek obchodních zástupců společnosti Makro. 📆 S&nbsp;touto aplikací mohou uživatelé snadno plánovat schůzky, zaznamenávat průběh jednání a&nbsp;ukládat cenové nabídky pro jednotlivé zákazníky.&nbsp;📈'
+		slug: 'olive',
+		title: 'Olive.online',
+		text: 'Interní webová aplikace pro správu sortimentu, objednávek, zákazníků a&nbsp;uživatelů.&nbsp;🧾 Pomáhá obchodníkům efektivně řídit celý proces od přijetí objednávky až po expedici.',
+		imageName: 'olive-admin',
+		imageAlt: 'Náhled administračního rozhraní Olive'
 	},
 	{
 		slug: 'mojemakro',
 		title: 'Moje Makro admin',
 		text: 'Samostatný administrační modul pro mobilní aplikaci Moje Makro, který usnadňuje správu produktů, bannerů, notifikací, poboček a&nbsp;zajišťuje řízení práv uživatelů.&nbsp;📱'
+	},
+	{
+		slug: 'salescockpit',
+		title: 'SalesCockpit',
+		text: 'Systém pro plánování a&nbsp;evidenci schůzek obchodních zástupců společnosti Makro. 📆 S&nbsp;touto aplikací mohou uživatelé snadno plánovat schůzky, zaznamenávat průběh jednání a&nbsp;ukládat cenové nabídky pro jednotlivé zákazníky.&nbsp;📈'
 	},
 	{
 		slug: 'typo',
